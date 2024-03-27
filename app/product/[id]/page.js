@@ -18,7 +18,7 @@ const ProductPage = () => {
     <main className="h-screen mb-28">
       <section className="bg-[#fafaf2] h-full py-20">
         {product.map((prodac) => (
-          <div className="w-11/12 lg:w-8/12 max-w-7xl mx-auto flex flex-col gap-12 lg:flex-row items-center justify-between">
+          <div key={prodac.id} className="w-11/12 lg:w-8/12 max-w-7xl mx-auto flex flex-col gap-12 lg:flex-row items-center justify-between">
             <div className="w-full lg:w-7/12 border border-slate-500/20 p-4">
               <img
                 src={`${prodac.images[0]}`}
