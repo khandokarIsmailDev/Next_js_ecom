@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="flex justify-end items-center gap-5">
           <div className="lg:w-[250px]">
             <span className="block text-center lg:text-right">
-              © LWS Shop Center 2024
+              Copyright ©2024 by Ismail
             </span>
             <p className="text-center lg:text-right mt-2">
               All images and content may not be used without permission
